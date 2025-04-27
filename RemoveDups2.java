@@ -37,3 +37,28 @@ public class RemoveDups2 {
 	}
 
 }
+
+ class Pair {
+	
+	int count;
+	char c;
+	public Pair(int count, char c) {
+		super();
+		this.count = count;
+		this.c = c;
+	}
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
+	public char getC() {
+		return c;
+	}
+	public void setC(char c) {
+		this.c = c;
+	}
+
+}
+
